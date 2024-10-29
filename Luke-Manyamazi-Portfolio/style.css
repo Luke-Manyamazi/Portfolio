@@ -55,3 +55,35 @@ section p {
   line-height: 1.5;
   max-width: 55ch;
 }
+
+#projects_img {
+  display: flex;
+  padding: 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+}
+
+a {
+  color: blue;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+ul > li {
+  row-gap: 2px;
+}
+
+nav {
+  background-color: grey;
+}
