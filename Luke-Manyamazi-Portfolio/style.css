@@ -7,6 +7,7 @@
   --gap: 20px;
   --container: clamp(280px, calc(100vw - calc(var(--gap) * 2)), 1180px);
 }
+
 /* General Styles */
 html,
 body {
@@ -15,6 +16,7 @@ body {
   color: var(--ink);
   font-family: var(--font);
 }
+
 body {
   display: grid;
   margin: auto;
@@ -22,6 +24,7 @@ body {
   gap: var(--gap);
   max-width: var(--container);
 }
+
 a,
 a:any-link {
   color: currentColor;
@@ -29,13 +32,15 @@ a:any-link {
   border-bottom: 2px solid transparent;
   transition: border-color ease-in-out 0.3s;
 }
+
 a:hover,
 a:focus {
   color: var(--brand);
   border-color: currentColor;
 }
+
 /* Site header and navigation */
-body > header {
+body>header {
   background: var(--paper);
   display: flex;
   justify-content: space-between;
@@ -44,6 +49,7 @@ body > header {
   top: 0;
   z-index: 1;
 }
+
 nav ul {
   display: flex;
   list-style: none;
@@ -58,13 +64,22 @@ section p {
 
 #projects_img {
   display: flex;
-  padding: 10px;
+  color: blue;
+  flex-direction: column;
+  font-weight: bold;
+  margin: 0;
+  align-items: flex-start;
 }
 
 img {
-  width: 200px;
-  height: 200px;
-  padding: 5px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+#projects_img>p {
+  color: orange;
+  align-content: flex-start;
 }
 
 a {
@@ -80,10 +95,11 @@ a:hover {
   color: blue;
 }
 
-ul > li {
-  row-gap: 2px;
+ul>li {
+  line-height: 1.8;
+  color: darkblue;
 }
 
-nav {
-  background-color: grey;
+h2 {
+  color: darkblue;
 }
