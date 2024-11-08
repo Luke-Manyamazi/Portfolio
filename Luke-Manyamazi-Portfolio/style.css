@@ -31,7 +31,6 @@ html {
     text-decoration: none;
     float: right;
     margin-right: 1em;
-
 }
 
 section {
@@ -47,8 +46,6 @@ section {
     gap: 10px;
     padding-bottom: 2px;
     max-width: 1500px;
-
-
 }
 
 .project-item {
