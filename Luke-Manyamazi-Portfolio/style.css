@@ -5,24 +5,3 @@ html {
     margin: 0;
     padding: 0;
 }
-
-.container {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.headerImg {
-    width: 1920px;
-    height: 800px;
-}
-
-.navbar {
-    top: 0;
-}
-
-h1 {
-    text-align: center;
-    top: 0;
-}
