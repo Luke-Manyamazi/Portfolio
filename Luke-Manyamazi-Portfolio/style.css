@@ -45,7 +45,7 @@ section {
     flex-wrap: wrap;
     gap: 10px;
     padding-bottom: 2px;
-    max-width: 1500px;
+    max-width: 1200px;
 }
 
 .project-item {
@@ -100,7 +100,7 @@ a {
 }
 
 a:visited {
-    color: blue;
+    color: white;
 }
 
 a:hover {
