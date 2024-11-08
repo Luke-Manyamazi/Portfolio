@@ -88,3 +88,25 @@ section {
 h4 {
     padding: 1em;
 }
+
+#contact {
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:link,
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: green;
+}
+
+p {
+    color: grey;
+}
