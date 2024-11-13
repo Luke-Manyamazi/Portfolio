@@ -96,11 +96,12 @@ h4 {
 
 a {
     text-decoration: none;
+    color: white;
 
 }
 
 a:visited {
-    color: white;
+    color: blue;
 }
 
 a:hover {
@@ -108,7 +109,7 @@ a:hover {
 }
 
 p {
-    color: grey;
+    color: white;
 }
 
 footer,
