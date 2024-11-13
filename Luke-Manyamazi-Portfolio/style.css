@@ -108,9 +108,7 @@ a:hover {
     color: green;
 }
 
-p {
-    color: black;
-}
+
 
 footer,
 h3 {
@@ -129,4 +127,8 @@ button {
     background-color: lightcyan;
     border: none;
     border-radius: 4cqw;
+}
+
+#contact_links a {
+    color: blue;
 }
