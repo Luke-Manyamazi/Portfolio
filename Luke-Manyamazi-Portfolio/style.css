@@ -12,7 +12,6 @@ html {
 main {
     margin-left: 200px;
     margin-right: 200px;
-
 }
 
 /* Hero Image and Text */
@@ -23,8 +22,6 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
-
 }
 
 .hero-text {
