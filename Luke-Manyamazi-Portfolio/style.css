@@ -12,6 +12,7 @@ html {
 main {
     margin-left: 200px;
     margin-right: 200px;
+
 }
 
 /* Hero Image and Text */
@@ -22,6 +23,8 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+
 }
 
 .hero-text {
@@ -123,12 +126,12 @@ a:hover {
     color: green;
 }
 
-footer,
-h3 {
+footer {
     text-align: center;
     padding: 1em;
     color: white;
     background-color: #232b2b;
+
 }
 
 button {
@@ -139,6 +142,7 @@ button {
     background-color: lightcyan;
     border: none;
     border-radius: 5px;
+
 }
 
 /* Responsive Adjustments */
