@@ -9,6 +9,11 @@ html {
     font-weight: lighter;
 }
 
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 /* Hero Image and Text */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero_img.jpg");
@@ -31,7 +36,7 @@ html {
 
 /* Navbar */
 .navbar {
-    text-align: center;
+    text-align: right;
 }
 
 .navbar a {
