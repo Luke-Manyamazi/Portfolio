@@ -50,8 +50,8 @@ section {
 
 .project-item {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -73,11 +73,11 @@ section {
     bottom: 0;
     background: rgba(0, 0, 0, 0.7);
     color: #f1f1f1;
-    width: 400px;
+    width: 300px;
     transition: .5s ease;
     opacity: 0;
     text-align: left;
-    padding: 10px;
+    font-size: small;
 }
 
 .project-item:hover .overlay {
